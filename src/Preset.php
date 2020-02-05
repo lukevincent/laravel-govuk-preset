@@ -39,7 +39,7 @@ class Preset extends LaravelPreset
 
 	public static function updatePackageArray($packages)
 	{
-		return array_merge(['laravel-mix-tailwind' => '~0.1.0', 'govuk-frontend' => '~2.11.0'], Arr::except($packages, [
+		return array_merge(['govuk-frontend' => '~3.5.0'], Arr::except($packages, [
 			'popper.js',
 			'lodash',
 			'jquery'
