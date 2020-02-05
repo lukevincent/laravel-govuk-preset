@@ -1,0 +1,23 @@
+{
+    "name": "lukevincent/laravel-govuk-preset",
+    "description": "A Laravel preset for https://github.com/alphagov/govuk-frontend, including optional auth scaffolding.",
+    "keywords": ["laravel", "laravel preset", "govuk", "govuk frontend"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Vincent",
+            "email": "luke.vincent@me.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "GovukPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["GovukPreset\\GovukPresetServiceProvider"]
+        }
+    }
+}
