@@ -9,7 +9,7 @@ GOV.UK Frontend contains the code you need to start building a user interface fo
 ## Usage
 
 1. Fresh install Laravel >= 6.0.0 and cd to your app.
-2. Install this preset via `composer require lukevincent/laravel-govuk-preset`. Laravel will automatically discover this package. No need to register the service provider.
+2. Install this preset via `composer require lukevincent/laravel-govuk-preset:dev-dev`. Laravel will automatically discover this package. No need to register the service provider.
 3. Use `php artisan preset govuk` for the basic GOV.UK Frontend preset OR use `php artisan preset govuk-auth` for the basic preset, auth route entry and GOV.UK Frontend auth views in one go. (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in `routes/web.php`)
 4. `npm install && npm run dev`
 5. Configure your favorite database (mysql, sqlite etc.)
