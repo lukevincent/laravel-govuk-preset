@@ -7,8 +7,11 @@
         <div class="govuk-grid-column-two-thirds">
 
             @if (session('status'))
-                <div class="alert alert-success" role="alert">
-                    {{ session('status') }}
+                <div class="govuk-warning-text">
+                    <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+                    <strong class="govuk-warning-text__text">
+                        {{ session('status') }}
+                    </strong>
                 </div>
             @endif
 
